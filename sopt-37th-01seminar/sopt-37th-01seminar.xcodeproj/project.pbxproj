@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		78DA506F2EA38543002337BA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 78DA506E2EA38543002337BA /* SnapKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		78F478D22E9A22CF004513E9 /* sopt-37th-01seminar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sopt-37th-01seminar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -21,6 +25,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		78224E8D2EA35E8900DB8A4E /* sopt-37th-02seminar */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "sopt-37th-02seminar";
+			sourceTree = "<group>";
+		};
 		78F0A3A42EA208FE00DE613A /* font */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = font;
@@ -41,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78DA506F2EA38543002337BA /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +60,7 @@
 		78F478C92E9A22CF004513E9 = {
 			isa = PBXGroup;
 			children = (
+				78224E8D2EA35E8900DB8A4E /* sopt-37th-02seminar */,
 				78F0A3A42EA208FE00DE613A /* font */,
 				78F478D42E9A22CF004513E9 /* sopt-37th-01seminar */,
 				78F478D32E9A22CF004513E9 /* Products */,
@@ -80,11 +91,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				78224E8D2EA35E8900DB8A4E /* sopt-37th-02seminar */,
 				78F0A3A42EA208FE00DE613A /* font */,
 				78F478D42E9A22CF004513E9 /* sopt-37th-01seminar */,
 			);
 			name = "sopt-37th-01seminar";
 			packageProductDependencies = (
+				78DA506E2EA38543002337BA /* SnapKit */,
 			);
 			productName = "sopt-37th-01seminar";
 			productReference = 78F478D22E9A22CF004513E9 /* sopt-37th-01seminar.app */;
@@ -114,6 +127,9 @@
 			);
 			mainGroup = 78F478C92E9A22CF004513E9;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				78DA506D2EA38543002337BA /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 78F478D32E9A22CF004513E9 /* Products */;
 			projectDirPath = "";
@@ -338,6 +354,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		78DA506D2EA38543002337BA /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		78DA506E2EA38543002337BA /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78DA506D2EA38543002337BA /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 78F478CA2E9A22CF004513E9 /* Project object */;
 }
